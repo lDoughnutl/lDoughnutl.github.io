@@ -1,0 +1,16 @@
+@mixin space($margin: 0.5em, $padding: 0.5em) {
+	margin: $margin;
+	padding: $padding;
+}
+
+@mixin font-settings($color: $primary-font-color, $family: $primary-font-family) {
+	color: $color;
+	font-family: $family;
+}
+
+@mixin basic-flex {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}

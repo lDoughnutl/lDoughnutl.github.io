@@ -1,0 +1,77 @@
+section {
+	width: 100%;
+}
+
+#container {
+	background-color: $secondary-bgcolor;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-areas:
+		"main-nav"
+		"main"
+		"resources"
+		"footer";
+	justify-items: center;
+}
+
+#main {
+	position: relative;
+	top: 80px;
+	grid-area: main;
+	@include basic-flex();
+}
+
+#main-header {
+	margin-right: auto;
+}
+
+#a2 {
+	@include font-settings($color: $caption-font-color, $family: $secondary-font-family);
+}
+
+.maintext {
+	@include space();
+	@include font-settings();
+	background-color: $primary-bgcolor;
+}
+
+header {
+	@include space();
+	@include font-settings($color: $title-font-color, $family: $secondary-font-family);
+}
+
+#main-image {
+	@include font-settings($color: $caption-font-color, $family: $secondary-font-family);
+	width: fit-content;
+	position: relative;
+	figcaption {
+		position: absolute;
+		top: 280px;
+		left: 6.5px;
+	}
+}
+
+a {
+	@include font-settings($color: $secondary-font-color, $family: $secondary-font-family);
+}
+
+img {
+	@include space($margin: 0);
+}
+
+@media screen and (min-width: 768px) {
+	#main-image {
+		flex: 0;
+	}
+	#main-secondary {
+		flex: 1;
+	}
+}
+
+@media screen and (min-width: 1281px) {
+	header,
+	.maintext,
+	nav {
+		font-size: 1.5em;
+	}
+}

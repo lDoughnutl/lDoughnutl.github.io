@@ -1,0 +1,30 @@
+nav {
+	@include space();
+}
+
+#main-nav {
+	z-index: +1;
+	position: fixed;
+	top: 0;
+	@include font-settings();
+	background-color: $primary-bgcolor;
+	a {
+		@include space();
+		display: inline-block;
+		width: 5em;
+		text-align: center;
+	}
+	grid-area: main-nav;
+}
+
+#footer {
+	img {
+		width: 30px;
+		height: 30px;
+		&:hover {
+			width: 40px;
+			height: 40px;
+		}
+	}
+	grid-area: footer;
+}

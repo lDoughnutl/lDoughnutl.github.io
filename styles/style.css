@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Varela+Round");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css");
+nav {
+  margin: 0.5em;
+  padding: 0.5em;
+}
+
+#main-nav {
+  z-index: +1;
+  position: fixed;
+  top: 0;
+  color: #ffdb58;
+  font-family: "Varela Round", sans-serif;
+  background-color: #151515;
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: main-nav;
+}
+
+#main-nav a {
+  margin: 0.5em;
+  padding: 0.5em;
+  display: inline-block;
+  width: 5em;
+  text-align: center;
+}
+
+#footer {
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+  grid-area: footer;
+}
+
+#footer img {
+  width: 30px;
+  height: 30px;
+}
+
+#footer img:hover {
+  width: 40px;
+  height: 40px;
+}
+
+section {
+  width: 100%;
+}
+
+#container {
+  background-color: #070707;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+      grid-template-areas: "main-nav" "main" "resources" "footer";
+  justify-items: center;
+}
+
+#main {
+  position: relative;
+  top: 80px;
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: main;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#main-header {
+  margin-right: auto;
+}
+
+#a2 {
+  color: #000000;
+  font-family: "Montserrat", sans-serif;
+}
+
+.maintext {
+  margin: 0.5em;
+  padding: 0.5em;
+  color: #ffdb58;
+  font-family: "Varela Round", sans-serif;
+  background-color: #151515;
+}
+
+header {
+  margin: 0.5em;
+  padding: 0.5em;
+  color: #77db99;
+  font-family: "Montserrat", sans-serif;
+}
+
+#main-image {
+  color: #000000;
+  font-family: "Montserrat", sans-serif;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  position: relative;
+}
+
+#main-image figcaption {
+  position: absolute;
+  top: 280px;
+  left: 6.5px;
+}
+
+a {
+  color: #00db58;
+  font-family: "Montserrat", sans-serif;
+}
+
+img {
+  margin: 0;
+  padding: 0.5em;
+}
+
+@media screen and (min-width: 768px) {
+  #main-image {
+    -webkit-box-flex: 0;
+        -ms-flex: 0;
+            flex: 0;
+  }
+  #main-secondary {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+}
+
+@media screen and (min-width: 1281px) {
+  header,
+  .maintext,
+  nav {
+    font-size: 1.5em;
+  }
+}
+
+#resources-nav {
+  margin-left: auto;
+}
+
+#resources-nav a {
+  color: #00db58;
+  font-family: "Varela Round", sans-serif;
+}
+
+#resources {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: resources;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=style.css.map */

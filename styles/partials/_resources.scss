@@ -1,0 +1,12 @@
+
+#resources-nav {
+	a {
+		@include font-settings($color: $secondary-font-color);
+	}
+	margin-left: auto;
+}
+
+#resources {
+	grid-area: resources;
+	@include basic-flex();
+}
