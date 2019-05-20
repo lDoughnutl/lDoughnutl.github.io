@@ -1,11 +1,24 @@
-# CSS SASS and Responsive Design Lessons
+This file should contain,
 
-Code in master is the starting point for the SASS lesson.
-
-[Slides for the SASS lesson](https://docs.google.com/presentation/d/196j7enpmF7ueHbtb-4Z0c53nkXeTY9iVevWzZLV6gaE/edit?usp=sharing)
-
-Code in css-sass-complete branch is the starting point for the responsive design lesson.
-
-[Slides for the Responsive Design lesson](https://docs.google.com/presentation/d/1X2mR5oG8AkIjnfXWpTXn0WYSPk9mG5aw_M9AwFd1jLQ/edit?usp=sharing)
-
-[Wireframes for the example project are found here](https://drive.google.com/file/d/1Afl3NHOiXw3H-QsXFCUjKDDkM2By-ooN/view?usp=sharing)
+A link (URL) to your published portfolio website
+A link to your GitHub repository
+Ensure the repository (repo) is accessible by your Educators
+Description of your portfolio website, including,
+Purpose
+Functionality / features
+Sitemap
+Screenshots
+Target audience
+Tech stack (e.g. html, css, deployment platform, etc)
+Design documentation including,
+Design process
+Wireframes
+Personal logo (optional)
+Usability considerations
+Details of planning process including,
+Project plan & timeline
+Screenshots of Trello board(s)
+Short Answer Q&A - Include short answers to the following questions,
+Describe key events in the development of the internet from the 1980s to today (max. 150 words)
+Define and describes the relationship between fundamental aspects of the internet such as: domains, web servers, DNS, and web browsers (max. 150 words)
+Reflect on one aspect of the development of internet technologies and how it has contributed to the world today (max. 150 words)
