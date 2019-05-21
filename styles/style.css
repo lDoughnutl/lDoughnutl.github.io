@@ -46,8 +46,8 @@ nav {
 }
 
 #footer img:hover {
-  width: 40px;
-  height: 40px;
+  -webkit-transform: scale(1.25);
+          transform: scale(1.25);
 }
 
 body {
