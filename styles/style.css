@@ -29,7 +29,7 @@ nav {
   background-color: #070707;
   position: fixed;
   left: 0;
-  bottom: 350px;
+  top: 30vh;
   border-radius: 0px 15px 15px 0px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
