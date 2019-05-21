@@ -28,9 +28,9 @@ nav {
 #footer {
   background-color: #070707;
   position: fixed;
-  right: 0;
-  bottom: 200px;
-  border-radius: 15px 0px 0px 15px;
+  left: 0;
+  bottom: 350px;
+  border-radius: 0px 15px 15px 0px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-flow: column;
