@@ -48,6 +48,7 @@ header {
 	@include font-settings($color: $caption-font-color, $family: $secondary-font-family);
 	width: fit-content;
 	position: relative;
+	
 	figcaption {
 		position: absolute;
 		top: 280px;
